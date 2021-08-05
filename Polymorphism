@@ -1,0 +1,72 @@
+Polymorphism is a very important concept in programming. It refers to the use of a single type entity (method, operator or object) to represent different types in different scenarios.
+
+Let us see an example
+
+num1 = 1
+num2 = 2
+print(num1+num2)
+output:
+3
+
+For integer data types, + operator is used to perform arithmetic addition operation.
+
+str1 = "Python"
+str2 = "Programming"
+print(str1+" "+str2)
+output:
+Python Programming
+
+For string data types, + operator is used to perform concatenation.
+
+Here, we can see that a single operator + has been used to carry out different operations for distinct data types. This is one of the most simple occurrences of polymorphism in Python.
+
+
+Polymorphism in class method:
+class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def info(self):
+        print(f"I am a cat. My name is {self.name}. I am {self.age} years old.")
+
+    def make_sound(self):
+        print("Meow")
+
+
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def info(self):
+        print(f"I am a dog. My name is {self.name}. I am {self.age} years old.")
+
+    def make_sound(self):
+        print("Bark")
+        
+output:
+Meow
+I am a cat. My name is Kitty. I am 2.5 years old.
+Meow
+Bark
+I am a dog. My name is Fluffy. I am 4 years old.
+Bark
+
+Advantages:
+*It helps the programmer to reuse the codes, i.e., classes once written, tested and implemented can be reused as required. Saves a lot of time.
+*Single variable can be used to store multiple data types.
+*Easy to debug the codes.
+
+
+Disadvantages:
+*One of the disadvantages of polymorphism is that developers find it difficult to implement polymorphism in codes.
+*Run time polymorphism can lead to the performance issue as machine needs to decide which method or variable to invoke so it basically degrades the performances as decisions are taken at run time.
+*Polymorphism reduces the readability of the program. One needs to identify the runtime behavior of the program to identify actual execution time.
+
+
+Real life example of polymorphism:
+A person at the same time can have different characteristic. Like a man at the same time is a father, a husband, an employee. So the same person posses different behavior in different situations. This is called polymorphism.
+
+
+
