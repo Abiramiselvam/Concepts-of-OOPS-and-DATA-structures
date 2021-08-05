@@ -1,0 +1,38 @@
+  Encapsulation is an Object Oriented Programming concept that binds together the data and functions that manipulate the data, and that keeps both safe from outside interference and misuse. Data encapsulation led to the important OOP concept of data hiding.
+Advantages of Encapsulation
+
+The main advantage of using encapsulation is the security of the data. Benefits of encapsulation include:
+
+-->Encapsulated codes in object oriented programming are better and more flexible to use.
+-->Encapsulated codes in object oriented programming can be easily adaptable to new changes.
+-->Encapsulated codes can restrict the user access.
+-->Encapsulated code in object oriented programming reduces coupling of the modules and increases cohesion because all the codes are encapsulated together.
+-->If we change anything in the encapsulated code then rest part of code remains unaffected.
+-->Through encapsulation, we can change the implementation code without breaking the code of others
+-->In encapsulation we hide the implementation details behind a public programming interface.
+-->Encapsulation makes unit testing easy.
+
+Simple example program for encapsulation in Python:
+
+
+class Person:
+    def __init__(self, name, age=0):
+        self.name = name
+        self.age = age
+ 
+    def display(self):
+        print(self.name)
+        print(self.age)
+ 
+person = Person('Dev', 30)
+person.display()
+print(person.name)
+print(person.age)
+
+output:
+Dev
+30
+Dev
+30
+
+
