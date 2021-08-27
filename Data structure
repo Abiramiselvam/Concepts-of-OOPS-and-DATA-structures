@@ -1,0 +1,32 @@
+Data Structure can be defined as the group of data elements which provides an efficient way of storing and organising data in the computer so that it can be used efficiently. 
+
+Types of Data Structure
+Basically, data structures are divided into two categories:
+1)Primitive data structure
+    -Integer
+    -Real
+    -Character
+    -Boolean
+2)Non primitive data structure
+    a)Linear data structure
+        1. Array Data Structure
+        2. Stack Data Structure
+        3. Queue Data Structure
+        4. Linked List Data Structure
+    b)Non-linear data structure
+        1. Graph Data Structure
+        2. Trees Data Structure
+        
+Advantages of Data Structure:
+  a)Data structure helps in efficient storage of data in the storage device. 
+  b)Data structure usage provides convenience while retrieving the data from storage device. 
+  c)Data structure provides effective and efficient processing of small as well as large amount of data.
+  
+Applications of Data Structures
+  a)Storing list of data elements belonging to same data type.
+  b)Auxiliary storage for other data structures.
+  c)Storage of binary tree elements of fixed count.
+  d)Storage of matrices.
+
+    
+
